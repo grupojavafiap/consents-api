@@ -27,7 +27,15 @@ A cada nova versão será criada uma tag, para possíbilitar consultar o código
 
 **d. Qual o modelo de integração que será utilizado com o pipeline (Delivery ou Deployment Contínuo) e quais as motivações para esta escolha;**
 Optamos pelo pipeline de Deployment Contínuo(CI/CD), para gerar constantemente valor para o cliente, como disponibilização de novas funcionalidades
-e correções de bugs. Para mitigar problemas nas entregas continuas, o processo de revisão de código, e da execução de testes, analise da qualidade de código(Sonar) durante o processo de CI, são
+e correções de bugs. 
+Através de entregas menores e continuas conseguimos diminuir a quantidade erros em produção e facilidade uma reversão de versão, caso a ultima alteração tenha causado um erro. 
+Nas etapas do pipeline, existem verificações de qualidade do código e testes automatizados, para tentar garantir que as funcionalidade já existentes continuem funcionando e
+que a nova tem testes suficientes para entrar em produção. 
+
+
+analisar e reverter com facilidade qualquer alteração que possa gera erros na aplicação. 
+A construção de um bom pipeline de build e deploy e essencial para mitigar problemas em produção. O pipeline terá 
+Para mitigar problemas nas entregas continuas, o processo de revisão de código, e da execução de testes, analise estática de código(Sonar) durante o processo de CI, são
 essências para o bom funcionamento do pipeline, como também um boa integração entre os time de operações e desenvolvimento, que construem 
 e evoluem o pipeline em conjunto. 
 
