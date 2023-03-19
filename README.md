@@ -5,8 +5,8 @@
 ## 1. Modelo de Workflow escolhido pelo grupo foi Git Feature Branch Workflow, justificativas da escolha:
   
   **a. Vantagens?**<br>
-  O Git Feature Branch Workflow, é uma fluxo simples e baseado em branchs de funcionalidades, partindo de branch principal(main), como fluxo de revisão de código. 
-  Permiti que tenhamos um fluxo de integração de código continuo e de entregas continuas, sendo bem indicado para o nosso projeto, pois utilizamos as práticas DevOps. Defini um fluxo de pull request, que além de validar o código que será integrado a branch principal, compartilha com o time o que foi feito e a forma que está implementado, dividindo o conhecimento e a responsabilidade. Não exige uma carga cognitiva muito alto do time, para manter o fluxo de trabalho coeso e integrado. 
+  O Git Feature Branch Workflow, é uma fluxo simples e baseado em branchs de funcionalidades, partindo de uma branch principal(main), com fluxo de revisão de código. 
+  Permiti que tenhamos um fluxo de integração de código continuo e de entregas continuas, sendo bem indicado para o nosso projeto, pois utilizamos as práticas DevOps. Defini um fluxo de pull request, que além de validar o código que será integrado a branch principal, compartilha com o time o que foi feito e a forma que está implementado, dividindo o conhecimento e a responsabilidade. Não exige uma carga cognitiva muito alta do time, para manter o fluxo de trabalho coeso e integrado. 
   O Fluxo também pode ser usado como base, para customizações ou utilizações com outros Workflows. 
 
 
@@ -22,7 +22,7 @@
 
   **d. Qual o modelo de integração que será utilizado com o pipeline (Delivery ou Deployment Contínuo) e quais as motivações para esta escolha;**
   Optamos pelo pipeline de Deployment Contínuo(CI/CD), para gerar constantemente valor para o cliente, como disponibilização de novas funcionalidades e correções de bugs. 
-  Através de entregas menores e contínuas conseguimos diminuir a quantidade erros em produção, aumentando a quantidade de entregas e diminuindo a complexidade caso seja necessária uma reversão de versão. 
+  Através de entregas menores e contínuas conseguimos diminuir a quantidade erros em produção, aumentando a quantidade de entregas e diminuindo a complexidade caso seja necessária uma reversão de versão ou detecção de bugs.
   Nas etapas do pipeline, existem verificações de qualidade do código e testes automatizados, para tentar garantir que as funcionalidades já existentes continuem funcionando e que as novas tenham testes suficientes para entrar em produção. 
 
 
