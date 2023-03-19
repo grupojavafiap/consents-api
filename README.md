@@ -44,5 +44,23 @@ Criamos um projeto simples, para aplicação do pipeline definido pelo grupo.
 Utilizamos o github actions para criação do pipeline, no arquivo `.github/workflows/ci-cd.yml` esta 
 definido o workflow.
 
-  - Testando a API:
-  `curl -X POST 'https://consents-api.herokuapp.com/generate' `
+  - Testando a API: 
+    - `curl -X POST 'https://consents-api.herokuapp.com/generate'`
+
+  - Pipeline executados: 
+    - `https://github.com/grupojavafiap/consents-api/actions`
+
+  - Aplicação do Git Feature Branch Workflow
+    - `https://github.com/grupojavafiap/consents-api/commits/main`
+
+
+
+### Integrantes
+
+| RM  | Aluno | Turma |
+| ------------- |:-------------:| --------- | 
+| 344792      | Benisson dos Santos Lopes     | 1SCJRBB-2022 |
+| 344799      | Leonardo Guerra Torres Filho     | 1SCJRBB-2022 |
+| 344801      | Lucas Eugenio Ribeiro     | 1SCJRBB-2022 |
+| 344794      | César de Lira Santos     | 1SCJRBB-2022 |
+| 344791      | Anderson Evangelista     | 1SCJRBB-2022 |
