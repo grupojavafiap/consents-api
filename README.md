@@ -41,8 +41,11 @@
 
 ## 3. Código do pipeline.
 Criamos um projeto simples, para aplicação do pipeline definido pelo grupo. 
-Utilizamos o github actions para criação do pipeline, no arquivo `.github/workflows/ci-cd.yml` esta 
+Utilizamos o github actions para criação do pipeline, no arquivo 
+[`.github/workflows/ci-cd.yml`](https://github.com/grupojavafiap/consents-api/blob/main/.github/workflows/ci-cd.yml) esta 
 definido o workflow.
+
+
 
   - Testando a API: 
     - `curl -X POST 'https://consents-api.herokuapp.com/generate'`
