@@ -47,13 +47,10 @@ definido o workflow.
   - Testando a API: 
     - `curl -X POST 'https://consents-api.herokuapp.com/generate'`
 
-  - Pipeline executados: 
-    - `https://github.com/grupojavafiap/consents-api/actions`
+  - [Pipeline executados](https://github.com/grupojavafiap/consents-api/actions)
 
-  - Aplicação do Git Feature Branch Workflow
-    - `https://github.com/grupojavafiap/consents-api/commits/main`
-
-
+  - [Aplicação do Git Feature Branch Workflow](https://github.com/grupojavafiap/consents-api/commits/main)
+  
   - Deploy no Heroku
     ![image info](./deploys.jpeg)
 
