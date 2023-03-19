@@ -54,6 +54,9 @@ definido o workflow.
     - `https://github.com/grupojavafiap/consents-api/commits/main`
 
 
+  - Deploy no Heroku
+    ![image info](./deploys.jpeg)
+
 
 ### Integrantes
 
